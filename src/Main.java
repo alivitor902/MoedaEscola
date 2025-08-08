@@ -20,6 +20,7 @@ public class Main {
     public static void main(String[] args) {
         //Inicia scanner
         Scanner scanner = new Scanner(System.in);
+
         //Recebe valor em dinheiro
         System.out.println("Digite o Valor em Reais");
         Double valorEmReais = scanner.nextDouble();
