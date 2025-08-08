@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Digite a cotação Atual do Dolar");
         Double cotacaoDolar = scanner.nextDouble();
         //Calcula o valor em dolar
-        Double valorEmDolar =  valorEmReais / cotacaoDolar;
+        double valorEmDolar =  valorEmReais / cotacaoDolar;
         //Apresenta somente 2 casas apos a virgula
         valorEmDolar = Math.round(valorEmDolar * 100.0) / 100.0;
         //Apresenta resultado
